@@ -9,6 +9,11 @@ module.exports = {
 	],
 
 	theme: {
+		colors: {
+			// transparent: 'transparent',
+			// current: 'currentColor',
+			'brand': "#7b00ffff"
+		  },
 		extend: {
 			typography: {
 				DEFAULT: {

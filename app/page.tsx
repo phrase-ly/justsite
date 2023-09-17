@@ -28,7 +28,7 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
-			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text text-brand">
 				phrase.ly
 			</h1>
 
@@ -38,7 +38,7 @@ export default function Home() {
 					phrase.ly is an amazing plugin that unleashes the power of productivity
 					{" "}
 				</h2>
-				<p><a className="text-sm text-zinc-500 " href="https://github.com/phrase-ly/phrasely/releases/download/0.0.1/phrasely.zip">Download</a></p>
+				<p><a className="text-sm text-zinc-500 underline text-brand" href="https://github.com/phrase-ly/phrasely/releases/download/0.0.1/phrasely.zip">Download</a></p>
 			</div>
 		</div>
 	);

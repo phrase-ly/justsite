@@ -38,7 +38,8 @@ export default function Home() {
 					phrase.ly is an amazing plugin that unleashes the power of productivity
 					{" "}
 				</h2>
-				<p><a className="text-sm text-zinc-500 underline text-brand" href="https://github.com/phrase-ly/phrasely/releases/download/0.0.1/phrasely.zip">Download</a></p>
+				<p><a className="text-sm text-zinc-500 underline text-brand" href="https://github.com/phrase-ly/phrasely/releases/download/0.0.1/phrasely.zip">Download</a> {"             "}
+				<a className="text-sm text-zinc-500 underline text-brand" href="https://github.com/phrase-ly/phrasely">Instructions</a></p>
 			</div>
 		</div>
 	);
